@@ -1,46 +1,14 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h1 >Descrição do Repositório</h1>
+  <h2>Atualização do Gerenciamento de Estado com Redux</h2>
+  <p>Este repositório contém um projeto que originalmente utilizava o <code>useState</code> para gerenciamento de estado. No entanto, como parte de uma atividade proposta no curso de Engenharia Front-End da EBAC, o gerenciamento de estado foi alterado para utilizar o Redux.</p>
+  <h3 style="color: #999;">Principais Atualizações</h3>
+  <ol>
+    <li><strong>Redux Toolkit</strong>: Implementamos o Redux Toolkit para simplificar a lógica do Redux em nosso projeto. Isso nos permite escrever menos código e lidar com menos complexidade ao gerenciar o estado.</li>
+    <li><strong>Slice do Carrinho</strong>: Criamos um slice específico para o carrinho. Isso nos permite gerenciar o estado do carrinho de forma mais eficiente e isolada do restante do estado da aplicação.</li>
+    <li><strong>Redux Toolkit Query</strong>: Utilizamos o Redux Toolkit Query para lidar com as requisições de rede. Isso nos permite gerenciar o estado do servidor e realizar operações assíncronas de maneira mais eficiente.</li>
+    <li><strong>useSelector</strong>: Implementamos o <code>useSelector</code> para acessar o estado do Redux dentro dos componentes. Isso nos permite selecionar apenas as partes do estado que são necessárias para o componente em questão.</li>
+    <li><strong>useDispatch</strong>: Utilizamos o <code>useDispatch</code> para disparar as ações do Redux. Isso nos permite modificar o estado da aplicação de maneira previsível.</li>
+  </ol>
+  <p>Este projeto é um exemplo prático de como atualizar um projeto existente para utilizar o Redux para gerenciamento de estado. Esperamos que seja útil para aqueles que estão aprendendo Redux ou procurando exemplos de como implementar o Redux em um projeto existente.</p>
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
